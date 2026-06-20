@@ -13,7 +13,7 @@ Core flags (GNU):
 Common usage examples:
 Encode a string:
 bashecho -n "Hello World" | base64
-# SGVsbG8gV29ybGQ=
+SGVsbG8gV29ybGQ=
 (-n on echo avoids encoding a trailing newline)
 Encode a file:
 bashbase64 myfile.txt > myfile.b64
